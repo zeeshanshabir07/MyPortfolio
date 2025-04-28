@@ -1,0 +1,12 @@
+:root {
+    --background-light: 0 0% 100%;
+    --background-dark: 222.2 84% 4.9%;
+    --text-light: 222.2 47.4% 11.2%;
+    --text-dark: 210 40% 98%;
+    --primary: 221.2 83.2% 53.3%;
+    --primary-dark: 222.2 47.4% 11.2%;
+    --primary-light: 210 40% 98%;
+    --secondary: 142.1 76.2% 36.3%;
+    --secondary-dark: 142.1 70.6% 45.3%;
+    --secondary-light: 138 76.5% 96.7%
+}
