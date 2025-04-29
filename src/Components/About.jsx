@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
   return (
-    <div id="about" className="py-20 px-10 sm:px-6 md:px-12 relative overflow-hidden">
+    <div id="about" className="py-8 px-16 sm:px-6 md:px-12 relative overflow-hidden">
       <div className="text-center mb-16">
         <h2 className="text-3xl text-white md:text-4xl font-bold mb-4">About Me</h2>
         <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
@@ -18,16 +18,12 @@ const About = () => {
               <h3 className="text-2xl font-semibold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
                 Who I Am
               </h3>
-              <p className="text-gray-200 dark:text-gray-300 leading-relaxed mb-4">
-                As a software developer with a background in computer systems, algorithms, and data structures, 
-                I have two years of experience in IT and two years of English studies under my belt. 
-                I am currently furthering my education in the 42 network for a Master Digital IT Architect degree. 
-                Coding and problem-solving through code are my passions, and I am excited to collaborate 
-                with talented programmers and expand my knowledge even more!
+              <p className="text-gray-200 font-serif dark:text-gray-300 leading-relaxed mb-4">
+              As a web developer with three years of experience, I hold a Master's in Computer Science (MCS) and possess keen knowledge of data structures and algorithms. My passion for coding and problem-solving through development drives me to constantly enhance my skills. I am excited to collaborate with talented teams, learn from others, and continue growing in the ever-evolving field of web development.
               </p>
               <div className="pt-4 border-t border-gray-200 dark:border-gray-300">
                 <p className="font-medium text-gray-100 dark:text-gray-200">
-                  Currently pursuing my passion for programming in the 42 network, working toward a Master's Degree in IT Architecture.
+                Currently pursuing my passion for Web Enigneering in the 10 network, working toward a Full Stack Software Engineering.
                 </p>
               </div>
             </div>
@@ -38,7 +34,7 @@ const About = () => {
         <div className="w-full lg:w-7/12">
           <h3 className="text-xl font-semibold mb-6 text-white text-center lg:text-left">My Qualities</h3>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid  grid-cols-1 md:grid-cols-2 gap-6">
             {/* Quality 1 */}
             <QualityCard
               icon="code"
@@ -61,7 +57,7 @@ const About = () => {
             <QualityCard
               icon="graduation-cap"
               title="Academic Focus"
-              description="Pursuing a Master's Degree in IT Architecture in the 42 network."
+              description="Currently pursuing my passion for Web Enigneering in the 10 network, working toward a Full Stack Software Engineering.."
             />
           </div>
 
@@ -114,7 +110,7 @@ const QualityCard = ({ icon, title, description }) => {
   };
 
   return (
-    <div className="bg-gray-600 text-white dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 group">
+    <div className="bg-gray-600 text-center sm:text-start text-white dark:bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 group">
       <div className="mb-4 inline-flex p-3 bg-primary/10 dark:bg-primary/20 rounded-lg text-center sm:text-start text-primary dark:text-primary-light group-hover:bg-primary/20 dark:group-hover:bg-primary/30 transition-colors duration-300">
         {icons[icon]}
       </div>

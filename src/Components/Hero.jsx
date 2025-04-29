@@ -4,7 +4,7 @@ import shani from '../assets/shani.jpg';  // ✅ fixed import
 const Hero = () => {
   return (
     <>
-      <div className="flex items-center justify-center px-4 sm:px-6 md:px-12 py-20 md:py-32 relative overflow-hidden">
+      <div className="flex items-center justify-center py-[120px] relative overflow-hidden">
         <div className="container relative z-10">
           <div className="flex flex-col md:order-1 order-2 md:flex-row items-center justify-between gap-12">
             <div className='order-2 sm:order-1 opacity-0 animate-fadeInLeft'>
@@ -19,11 +19,11 @@ const Hero = () => {
                 </span>
               </h1>
               <h2 className="text-red-300 text-[22px] pb-2 text-center sm:text-start">MERN Stack Developer</h2>
-              <p className="max-w-lg text-justify text-red-200">
+              <p className="max-w-lg text-center sm:text-justify text-red-200">
               As a MERN Stack Developer, I specialize in building full-stack web applications using MongoDB, Express.js, React.js, and Node.js. I create dynamic, scalable solutions with a focus on responsive front-end design and efficient back-end development. My goal is to deliver seamless user experiences and optimize web performance.
               </p>
               <div className='flex flex-row gap-5 py-6 justify-center md:justify-start'>
-                <button className='px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-all duration-300 flex items-center gap-2" tabindex="0"'><svg className='pr-2' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-4 h-4"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg> Contact Me</button>
+                <button className='px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg shadow-lg shadow-primary/20 hover:shadow-primary/30 transition-all duration-300 flex items-center gap-2" tabindex="0"'><svg className='mr-[6px]' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-4 h-4"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg> Contact Me</button>
                 <button className= 'px-6 text-red-200 py-3 border border-gray-300 dark:border-gray-600 hover:border-primary hover:text-primary dark:hover:border-primary-light dark:hover:text-primary-light rounded-lg transition-all duration-300 flex items-center gap-2'><svg className='pr-2' xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-4 h-4"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg> Resume</button>
               </div>
               <div className="social-icon-link">

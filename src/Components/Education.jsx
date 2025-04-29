@@ -22,7 +22,7 @@ const educationData = [
   
   const Education = () => {
     return (
-      <div id="education" className="py-20  bg-gray-800 text-white">
+      <div id="education" className=" py-8 px-16 sm:px-6 md:px-12 bg-gray-800 text-white">
         {/* Heading */}
         <div className="text-center mb-4">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Education Journey </h2>

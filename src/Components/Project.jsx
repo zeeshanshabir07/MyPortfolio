@@ -6,7 +6,7 @@ import futurecoder from '../assets/futurecoder.JPG'
 import { MdSchool } from 'react-icons/md';
 const Project = () => {
   return (
-  <div id="projects"  className="py-20 container mx-auto">
+  <div id="projects"  className="py-8 px-16 sm:px-6 md:px-12">
         <div className="text-center mb-6">
           <h2 className="text-3xl text-white md:text-4xl font-bold mb-4">My Projects</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
@@ -101,32 +101,7 @@ const Project = () => {
       </div>
     </div>
   </div>
-  <div className="w-80 rounded-lg flex flex-col shadow-lg bg-gray-700 h-full">
-    <div
-      className="relative w-full h-48 bg-cover bg-center rounded-t-lg transition-transform duration-300 ease-in-out transform group"
-      style={{ backgroundImage: `url(${futurecoder})` }}
-    >
-      <h2 className="absolute bottom-4 left-4 text-white text-[18px] font-medium">
-        Brand Page 
-      </h2>
-    </div>
-    <div className="p-4 flex flex-col justify-between h-full">
-      <p className="text-gray-400 text-[16px] text-justify">
-        FutureCoders.com is a web platform where users apply for internships and job postings.
-      Admins can view applications, update their status (selected/rejected), and manage notifications.
-      The site includes user authentication with login and logout functionality.
-      <a href="full-description.html" className="text-blue-500 hover:underline ml-1">Read More</a>
-      </p>
-      <div className="tags flex flex-wrap gap-2 mt-2">
-        <span className="px-2 py-1 rounded-full bg-[#1F2937] text-white text-[14px] hover:bg-gray-700">HTML</span>
-        <span className="px-2 py-1 rounded-full bg-[#1F2937] text-white text-[14px] hover:bg-gray-700">CSS</span>
-        <span className="px-2 py-1 rounded-full bg-[#1F2937] text-white text-[14px] hover:bg-gray-700">Tailwind</span>
-        <span className="px-2 py-1 rounded-full bg-[#1F2937] text-white text-[14px] hover:bg-gray-700">JavaScript</span>
-        <span className="px-2 py-1 rounded-full bg-[#1F2937] text-white text-[14px] hover:bg-gray-700">ReactJS</span>
-        <span className="px-2 py-1 rounded-full bg-[#1F2937] text-white text-[14px] hover:bg-gray-700">NodeJS</span>
-      </div>
-    </div>
-  </div>
+  
 
   
 </div>

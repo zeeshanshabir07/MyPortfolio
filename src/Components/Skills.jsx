@@ -8,7 +8,7 @@ const Skills = () => {
 
   return (
     <>
-      <div id="skills" className="py-20 px-4 sm:px-6 md:px-12 relative overflow-hidden">
+      <div id="skills" className="py-20  px-10  sm:px-6 flex justify-center items-center flex-col relative ">
         <div className="text-center mb-6">
           <h2 className="text-3xl text-white md:text-4xl font-bold mb-4">My Skills</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
@@ -59,7 +59,7 @@ const Skills = () => {
         </div>
 
         {/* Skills display section */}
-        <div className="flex flex-wrap gap-6 ">
+        <div className="flex justify-center flex-wrap gap-6 ">
           {filteredSkills.map((category, index) =>
             category.skills.map((skill, skillIndex) => (
               <div
@@ -87,8 +87,8 @@ const Skills = () => {
             ))
           )}
         </div>
-        <div className=' bg-gray-800 rounded-lg mx-auto my-10 py-10'>
-        <h3 class="text-2xl font-semibold mb-6 text-white text-center">Additional Skills &amp; Methodologies</h3>
+        <div className=' bg-gray-800 rounded-lg mx-2 sm:mx-10 my-10 py-10'>
+        <h3 class="text-2xl font-semibold mb-6 text-white text-center ">Additional Skills &amp; Methodologies</h3>
          <div className='flex flex-wrap justify-center gap-3'>
          <span className="px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-gray-800 dark:text-gray-200" style={{   opacity: 1, backgroundColor: "rgb(55, 65, 81)", color: "rgb(229, 231, 235)", transform: "none"   }}> Project Management</span>
          <span className="px-4 py-2 bg-gray-100 dark:bg-gray-700 rounded-full text-gray-800 dark:text-gray-200" style={{   opacity: 1, backgroundColor: "rgb(55, 65, 81)", color: "rgb(229, 231, 235)", transform: "none"   }}> Problem Solving</span>
